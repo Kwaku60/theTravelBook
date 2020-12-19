@@ -6,10 +6,49 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    background-color: lightcyan;
+}
+
+.interactive-map{
+  border: solid red 2px;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
 }
 
 .marker{
-  stroke: lightbluel
+  stroke: rgb(37, 75, 88);
   
 }
 
+.error{
+  color: #f05305;
+}
+
+.popup{
+  /* make width a little less than half the window size */
+  width: 40vw;
+  padding: 1.25rem;
+  background-color:lightslategrey;
+  border-radius: 2rem;
+}
+
+.popup img {
+  height: 300px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block; 
+
+}
+
+
+.entry-form label, 
+.entry-form input, 
+.entry-form textarea,
+.entry-form button {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%
+}
